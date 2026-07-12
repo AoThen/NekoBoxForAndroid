@@ -18,7 +18,7 @@ jobs:
 
       - name: Clone dependency repos
         run: |
-          git clone --depth 1 https://github.com/MatsuriDayo/libneko.git ../libneko
+          git clone https://github.com/MatsuriDayo/libneko.git ../libneko && git -C ../libneko checkout 1c47a3af71990a7b2192e03292b4d246c308ef0b
           git clone https://github.com/MatsuriDayo/sing-box.git ../sing-box && git -C ../sing-box checkout aed32ee3066cdbc7d471e3e0415c5134088962df
 
       - uses: actions/setup-go@v5
