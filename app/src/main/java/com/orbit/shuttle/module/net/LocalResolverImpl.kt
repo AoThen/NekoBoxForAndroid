@@ -10,8 +10,8 @@ import com.orbit.shuttle.ktx.Logs
 import com.orbit.shuttle.ktx.runOnIoDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.asExecutor
-import seew.libcore.ExchangeContext
-import seew.libcore.LocalDNSTransport
+import libcore.ExchangeContext
+import libcore.LocalDNSTransport
 import java.net.InetAddress
 import java.net.UnknownHostException
 

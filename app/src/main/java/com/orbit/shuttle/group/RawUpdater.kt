@@ -19,7 +19,7 @@ import com.orbit.shuttle.fmt.v2ray.isTLS
 import com.orbit.shuttle.fmt.v2ray.setTLS
 import com.orbit.shuttle.fmt.wireguard.WireGuardBean
 import com.orbit.shuttle.ktx.*
-import seew.libcore.Libcore
+import libcore.Libcore
 import com.orbit.shuttle.module.Protocols
 import com.orbit.shuttle.module.proxy.anytls.AnyTLSBean
 import com.orbit.shuttle.module.proxy.config.ConfigBean

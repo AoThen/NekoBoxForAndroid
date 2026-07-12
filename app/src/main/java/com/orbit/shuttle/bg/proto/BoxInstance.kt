@@ -19,8 +19,8 @@ import com.orbit.shuttle.fmt.trojan_go.buildTrojanGoConfig
 import com.orbit.shuttle.ktx.*
 import com.orbit.shuttle.plugin.PluginManager
 import kotlinx.coroutines.*
-import seew.libcore.BoxInstance
-import seew.libcore.Libcore
+import libcore.BoxInstance
+import libcore.Libcore
 import com.orbit.shuttle.module.net.LocalResolverImpl
 import java.io.File
 

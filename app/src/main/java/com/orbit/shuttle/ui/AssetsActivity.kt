@@ -17,7 +17,7 @@ import com.orbit.shuttle.databinding.LayoutAssetItemBinding
 import com.orbit.shuttle.databinding.LayoutAssetsBinding
 import com.orbit.shuttle.ktx.*
 import com.orbit.shuttle.widget.UndoSnackbarManager
-import seew.libcore.Libcore
+import libcore.Libcore
 import com.orbit.shuttle.module.utils.Util
 import org.json.JSONObject
 import java.io.File
