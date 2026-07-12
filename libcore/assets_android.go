@@ -14,7 +14,7 @@ import (
 )
 
 func extractAssets() {
-	useOfficialAssets := intfNB4A.UseOfficialAssets()
+	useOfficialAssets := intfApp.UseOfficialAssets()
 
 	extract := func(name string) {
 		err := extractAssetName(name, useOfficialAssets)

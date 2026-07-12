@@ -40,7 +40,7 @@ func InitCore(process, cachePath, internalAssets, externalAssets string,
 	defer device.DeferPanicToError("InitCore", func(err error) { log.Println(err) })
 	isBgProcess = strings.HasSuffix(process, ":bg")
 
-	neko_common.RunMode = "SeeW"
+	neko_common.RunMode = neko_common.RunMode_NekoBoxForAndroid
 	intfApp = if1
 	intfBox = if2
 	useProcfs = intfBox.UseProcFS()
