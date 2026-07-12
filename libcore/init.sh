@@ -12,6 +12,12 @@ if [ ! -f "$GOPATH/bin/gomobile-matsuri" ]; then
     git clone https://github.com/MatsuriDayo/gomobile.git
     pushd gomobile
 	git checkout origin/master2
+
+    # Patch getModuleVersions: write minimal go.mod when go list -m fails
+    sed -i '/\/\/ Module information is not available at src\./{
+N;N;s|// Module information is not available at src\.\n\t\treturn nil, nil\n\t}|_ = output\n\t\tf := \&modfile.File{}\n\t\tf.AddModuleStmt("gobind")\n\t\tv, _ := ensureGoVersion()\n\t\tif v == "" {\n\t\t\tv = fmt.Sprintf("go1.%d", minimumGoMinorVersion)\n\t\t}\n\t\tf.AddGoStmt(strings.TrimPrefix(v, "go"))\n\t\treturn f, nil\n\t}|
+}' cmd/gomobile/bind.go
+
     pushd cmd
     pushd gomobile
     go install -v
