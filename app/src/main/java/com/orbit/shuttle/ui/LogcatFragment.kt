@@ -17,7 +17,7 @@ import com.orbit.shuttle.R
 import com.orbit.shuttle.databinding.LayoutLogcatBinding
 import com.orbit.shuttle.ktx.*
 import com.orbit.shuttle.widget.ListListener
-import libcore.Libcore
+import seew.libcore.Libcore
 import com.orbit.shuttle.module.utils.SendLog
 
 class LogcatFragment : ToolbarFragment(R.layout.layout_logcat),

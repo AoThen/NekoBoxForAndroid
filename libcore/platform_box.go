@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"libcore/procfs"
+	"seew/libcore/procfs"
 	"log"
 	"net/netip"
 	"strings"

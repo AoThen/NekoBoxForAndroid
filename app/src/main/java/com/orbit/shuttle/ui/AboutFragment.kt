@@ -27,7 +27,7 @@ import com.orbit.shuttle.ktx.*
 import com.orbit.shuttle.plugin.PluginManager.loadString
 import com.orbit.shuttle.utils.PackageCache
 import com.orbit.shuttle.widget.ListListener
-import libcore.Libcore
+import seew.libcore.Libcore
 import com.orbit.shuttle.module.plugin.Plugins
 import androidx.core.net.toUri
 import com.google.android.material.dialog.MaterialAlertDialogBuilder

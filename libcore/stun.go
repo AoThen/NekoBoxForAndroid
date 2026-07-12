@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"libcore/stun"
+	"seew/libcore/stun"
 )
 
 type StunResult struct {

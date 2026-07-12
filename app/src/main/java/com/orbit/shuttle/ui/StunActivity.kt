@@ -8,7 +8,7 @@ import com.orbit.shuttle.databinding.LayoutStunBinding
 import com.orbit.shuttle.ktx.onMainDispatcher
 import com.orbit.shuttle.ktx.readableMessage
 import com.orbit.shuttle.ktx.runOnDefaultDispatcher
-import libcore.Libcore
+import seew.libcore.Libcore
 
 class StunActivity : ThemedActivity() {
 

@@ -1,6 +1,6 @@
 package com.orbit.shuttle.ktx
 
-import libcore.Libcore
+import seew.libcore.Libcore
 import java.io.InputStream
 import java.io.OutputStream
 

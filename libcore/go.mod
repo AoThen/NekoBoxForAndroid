@@ -1,4 +1,4 @@
-module libcore
+module seew/libcore
 
 go 1.23.1
 

@@ -2,7 +2,7 @@ package libcore
 
 import (
 	"fmt"
-	"libcore/device"
+	"seew/libcore/device"
 	"os"
 	"path/filepath"
 	"runtime/debug"

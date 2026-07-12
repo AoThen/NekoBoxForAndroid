@@ -21,7 +21,7 @@ import com.orbit.shuttle.utils.DefaultNetworkListener
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import libcore.Libcore
+import seew.libcore.Libcore
 import com.orbit.shuttle.module.Protocols
 import com.orbit.shuttle.module.utils.Util
 import java.net.UnknownHostException

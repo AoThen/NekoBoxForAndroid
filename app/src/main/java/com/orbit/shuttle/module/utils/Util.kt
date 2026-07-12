@@ -3,7 +3,7 @@ package com.orbit.shuttle.module.utils
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Base64
-import libcore.StringBox
+import seew.libcore.StringBox
 import java.io.ByteArrayOutputStream
 import java.net.URLDecoder
 import java.nio.charset.StandardCharsets

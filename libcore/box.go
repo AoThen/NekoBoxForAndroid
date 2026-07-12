@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"libcore/device"
+	"seew/libcore/device"
 	"log"
 	"runtime"
 	"runtime/debug"

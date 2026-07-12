@@ -11,7 +11,7 @@ import com.orbit.shuttle.ktx.Logs
 import com.orbit.shuttle.utils.Commandline
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
-import libcore.Libcore
+import seew.libcore.Libcore
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

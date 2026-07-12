@@ -9,7 +9,7 @@ import com.orbit.shuttle.ktx.runOnDefaultDispatcher
 import com.orbit.shuttle.ktx.tryResume
 import com.orbit.shuttle.ktx.tryResumeWithException
 import kotlinx.coroutines.delay
-import libcore.Libcore
+import seew.libcore.Libcore
 import com.orbit.shuttle.module.net.LocalResolverImpl
 import kotlin.coroutines.suspendCoroutine
 

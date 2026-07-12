@@ -27,7 +27,7 @@ import com.orbit.shuttle.ui.MainActivity
 import com.orbit.shuttle.utils.*
 import kotlinx.coroutines.DEBUG_PROPERTY_NAME
 import kotlinx.coroutines.DEBUG_PROPERTY_VALUE_ON
-import libcore.Libcore
+import seew.libcore.Libcore
 import com.orbit.shuttle.module.NativeInterface
 import com.orbit.shuttle.module.net.LocalResolverImpl
 import com.orbit.shuttle.module.utils.JavaUtil

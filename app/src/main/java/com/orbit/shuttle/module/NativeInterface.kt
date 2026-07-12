@@ -14,9 +14,9 @@ import com.orbit.shuttle.ktx.Logs
 import com.orbit.shuttle.ktx.app
 import com.orbit.shuttle.ktx.runOnDefaultDispatcher
 import com.orbit.shuttle.utils.PackageCache
-import libcore.BoxPlatformInterface
-import libcore.Libcore
-import libcore.AppInterface
+import seew.libcore.BoxPlatformInterface
+import seew.libcore.Libcore
+import seew.libcore.AppInterface
 import java.net.InetSocketAddress
 
 class NativeInterface : BoxPlatformInterface, AppInterface {
