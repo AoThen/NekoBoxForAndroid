@@ -466,8 +466,8 @@
     </string-array>
 
     <string-array name="exe_prefer_provider">
-        <item>Matsuri</item>
-        <item>SagerNet</item>
+        <item>SeeW</item>
+        <item>SeeW</item>
     </string-array>
 
     <string-array name="app_tls_version">

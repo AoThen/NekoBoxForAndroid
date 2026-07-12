@@ -27,7 +27,7 @@ android {
         viewBinding = true
         aidl = true
     }
-    namespace = "io.nekohasekai.sagernet"
+    namespace = "com.orbit.shuttle"
     packaging {
         jniLibs {
             useLegacyPackaging = true

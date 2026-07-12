@@ -42,7 +42,7 @@ import (
 	_ "github.com/sagernet/sing-box/transport/v2rayquic"
 )
 
-func nekoboxAndroidInboundRegistry() *inbound.Registry {
+func appInboundRegistry() *inbound.Registry {
 	registry := inbound.NewRegistry()
 
 	tun.RegisterInbound(registry)
@@ -57,7 +57,7 @@ func nekoboxAndroidInboundRegistry() *inbound.Registry {
 	return registry
 }
 
-func nekoboxAndroidOutboundRegistry() *outbound.Registry {
+func appOutboundRegistry() *outbound.Registry {
 	registry := outbound.NewRegistry()
 
 	direct.RegisterOutbound(registry)
@@ -88,7 +88,7 @@ func nekoboxAndroidOutboundRegistry() *outbound.Registry {
 	return registry
 }
 
-func nekoboxAndroidEndpointRegistry() *endpoint.Registry {
+func appEndpointRegistry() *endpoint.Registry {
 	registry := endpoint.NewRegistry()
 
 	wireguard.RegisterEndpoint(registry)
@@ -96,7 +96,7 @@ func nekoboxAndroidEndpointRegistry() *endpoint.Registry {
 	return registry
 }
 
-func nekoboxAndroidDNSTransportRegistry(localTransport LocalDNSTransport) *dns.TransportRegistry {
+func appDNSTransportRegistry(localTransport LocalDNSTransport) *dns.TransportRegistry {
 	registry := dns.NewTransportRegistry()
 
 	transport.RegisterTCP(registry)
@@ -121,7 +121,7 @@ func nekoboxAndroidDNSTransportRegistry(localTransport LocalDNSTransport) *dns.T
 	return registry
 }
 
-func nekoboxAndroidServiceRegistry() *service.Registry {
+func appServiceRegistry() *service.Registry {
 	registry := service.NewRegistry()
 
 	return registry

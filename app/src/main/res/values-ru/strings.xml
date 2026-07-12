@@ -35,8 +35,8 @@
 <string name="always_show_address">Всегда показывать адрес</string>
 <string name="always_show_address_sum">Всегда отображать адрес сервера на карте конфигурации</string>
 <string name="app_desc">Универсальный набор инструментов прокси для Android, написанный на Kotlin.</string>
-<string name="app_name">NekoBox</string>
-<string name="app_name_long">NekoBox для Android</string>
+<string name="app_name">SeeW</string>
+<string name="app_name_long">SeeW</string>
 <string name="app_tls_version">Минимальная версия TLS протокола</string>
 <string name="app_version">Версия</string>
 <string name="append_http_proxy">Добавить HTTP-прокси к VPN</string>
@@ -402,7 +402,7 @@
 <string name="share">Поделиться</string>
 <string name="share_qr_nfc">QR-код</string>
 <string name="share_subscription">Поделиться подпиской</string>
-<string name="show_bottom_bar">Показать нижнюю панель, как в SagerNet</string>
+<string name="show_bottom_bar">Показать нижнюю панель, как в SeeW</string>
 <string name="show_direct_speed">Показать прямую скорость</string>
 <string name="show_direct_speed_sum">Также в уведомлении показывать скорость трафика без прокси</string>
 <string name="show_group_in_notification">Показывать название группы в уведомлении</string>
