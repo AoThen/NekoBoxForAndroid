@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANDROID_HOME: /usr/local/lib/android/sdk
+      GOTOOLCHAIN: local
     steps:
       - uses: actions/checkout@v4
 
