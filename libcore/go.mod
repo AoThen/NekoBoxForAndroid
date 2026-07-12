@@ -1,8 +1,6 @@
 module seew/libcore
 
-go 1.23.1
-
-toolchain go1.23.6
+go 1.25
 
 require (
 	github.com/matsuridayo/libneko v1.0.0 // replaced
