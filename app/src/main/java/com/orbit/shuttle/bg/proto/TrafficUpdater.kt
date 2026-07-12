@@ -1,7 +1,7 @@
 package com.orbit.shuttle.bg.proto
 
 class TrafficUpdater(
-    private val box: seew.libcore.BoxInstance,
+    private val box: libcore.BoxInstance,
     val items: List<TrafficLooperData>, // contain "bypass"
 ) {
 
